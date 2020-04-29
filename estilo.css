@@ -12,11 +12,6 @@ body {
     font-weight: 300;
 }
 
-a[href$=".pdf"] {
-    border-bottom: 4px dotted;
-    color: #000
-}
-
 :hover {
     transition: all ease 0.5s;
 }
@@ -264,4 +259,9 @@ footer {
 
 .derecha {
     float: right;
+}
+
+a[href$=".pdf"] {
+    border-bottom: 4px dotted blue;
+
 }
